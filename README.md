@@ -58,6 +58,30 @@ Building API using: NodeJs, ExpressJs, axios.
 * `NodeJs` : https://secure-oasis-88951.herokuapp.com
 * `React app`: https://mighty-depths-98457.herokuapp.com/
 
+## git hooks
+### pre-commit
+```
+#!/bin/sh
+
+mv "blog-posts-frontend/.git" "blog-posts-frontend/.git2"
+mv "blog-posts-backend/.git" "blog-posts-backend/.git2"
+
+git rm --cached blog-posts-frontend
+git rm --cached blog-posts-backend
+
+git add blog-posts-frontend/*
+git add blog-posts-backend/*
+
+git reset blog-posts-frontend/.git2
+git reset blog-posts-backend/.git2
+```
+### post-commit
+```
+#!/bin/sh
+
+mv "blog-posts-frontend/.git2" "blog-posts-frontend/.git"
+mv "blog-posts-backend/.git2" "blog-posts-backend/.git"
+```
 ## References
 Please refer to the bellow URLs if you need to understand any of the topics:
 - [Concurrent requests](https://www.storyblok.com/tp/how-to-send-multiple-requests-using-axios)
