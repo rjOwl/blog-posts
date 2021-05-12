@@ -1,9 +1,11 @@
 blog-posts-frontend/node_modules
 blog-posts-frontend/.git
+blog-posts-frontend/.git2
 blog-posts-frontend/npm-debug.log
 blog-posts-backend/node_modules
 blog-posts-backend/npm-debug.log
 blog-posts-backend/.git
+blog-posts-backend/.git2
 *.rar 
 *.zip
 
