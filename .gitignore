@@ -1,9 +1,9 @@
-blog-posts/node_modules
-blog-posts/npm-debug.log
-backend/node_modules
-backend/npm-debug.log
+blog-posts-frontend/node_modules
+blog-posts-frontend/.git
+blog-posts-frontend/npm-debug.log
+blog-posts-backend/node_modules
+blog-posts-backend/npm-debug.log
+blog-posts-backend/.git
 *.rar 
 *.zip
-blog-posts-*/.git
-
 
