@@ -1,4 +1,4 @@
-# Blog posts MERN stack
+# Blog-posts web app
 For more info on how to run locally, or any other info refer to the `README.md` inside the `blog-posts-backend` directory to start the server README.md inside `blog-posts-frontend` directory to run the web app
 
 ## Whole Project Structure
