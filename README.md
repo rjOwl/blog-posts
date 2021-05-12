@@ -1,10 +1,10 @@
 # Blog posts MERN stack
-For more info on how to run locally, refer to the README.md inside the `bolg-posts-backend` directory to start the server README.md inside `blog-posts-frontend` directory to run the web app
+For more info on how to run locally, refer to the README.md inside the `blog-posts-backend` directory to start the server README.md inside `blog-posts-frontend` directory to run the web app
 
 ## Whole Project Structure
 ```
 ├── README.md
-├── bolg-posts-frontend
+├── blog-posts-frontend
 │   ├── README.md
 │   ├── package-lock.json
 │   ├── package.json
@@ -24,7 +24,7 @@ For more info on how to run locally, refer to the README.md inside the `bolg-pos
 │       ├── logo.svg
 │       ├── reportWebVitals.js
 │       └── setupTests.js
-└── bolg-posts-backend
+└── blog-posts-backend
     ├── Dockerfile
     ├── README.md
     ├── config.js
