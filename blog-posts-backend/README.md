@@ -1,6 +1,6 @@
 # Blog-post APIs
 ```
-This backend was built using: NodeJs, ExpressJs, axios.
+Tech used in this project: NodeJs, ExpressJs, axios.
 ```
 
 # Project Structure
