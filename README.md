@@ -1,5 +1,5 @@
 # Blog posts MERN stack
-For more info on how to run locally, refer to the README.md inside the `blog-posts-backend` directory to start the server README.md inside `blog-posts-frontend` directory to run the web app
+For more info on how to run locally, or any other info refer to the `README.md` inside the `blog-posts-backend` directory to start the server README.md inside `blog-posts-frontend` directory to run the web app
 
 ## Whole Project Structure
 ```
@@ -43,20 +43,10 @@ For more info on how to run locally, refer to the README.md inside the `blog-pos
         └── test-endpoints.js
 ```
 
-# Blog-posts
-```
-Building API using: NodeJs, ExpressJs, axios.
-
-```
-
 # Live URLs
-* `React app`: https://mighty-depths-98457.herokuapp.com/
-* `nodejs api`: https://secure-oasis-88951.herokuapp.com
+* `React.JS app`: https://mighty-depths-98457.herokuapp.com/
+* `Node.JS api`: https://secure-oasis-88951.herokuapp.com
 
-
-## Base URL
-* `NodeJs` : https://secure-oasis-88951.herokuapp.com
-* `React app`: https://mighty-depths-98457.herokuapp.com/
 
 ## git hooks
 ### pre-commit
